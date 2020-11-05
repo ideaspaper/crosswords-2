@@ -119,7 +119,7 @@ function createTable(questions) {
     tableOutput += temp;
   }
   tableOutput = '<table id=crosswords-table>' + tableOutput + '</table>';
-  return tableOutput + '<h3>Press Enter to check the answer</h3>';
+  return tableOutput;
 }
 
 function createClues(questions) {
@@ -138,7 +138,7 @@ function createClues(questions) {
   down = '<ol id="down">' + down + '</ol>';
 
   let output = '<h2>Across</h2>' + across + '<h2>Down</h2>' + down;
-  return output;
+  return output + '<h3>Press Enter to check the answer</h3>';
 }
 
 function putInputs(table, questions) {
