@@ -24,7 +24,7 @@ var data = [
     legend: 9
   },
   {
-    clue: 'typeof Array',
+    clue: 'typeof Array.',
     answer: 'object',
     x: 3,
     y: 9,
